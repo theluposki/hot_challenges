@@ -52,10 +52,12 @@
 
   --pink: hsl(300,100%,50%);
   --blue: hsl(194.5,100%,34.1%);
+  --dark: hsl(260,57%,5.5%);
+  --white: hsl(0,0%,95.7%);
 
-  --bg-color: hsl(260,57%,5.5%);
+  --bg-color: var(--dark);
 
-  --ft-color: hsl(0,0%,95.7%);
+  --ft-color: var(--white);
 }
 
 body {
@@ -86,6 +88,25 @@ body {
 .align-right {
   text-align: right;
   min-width: 82%;
+}
+
+.btn {
+  border: solid 1px var(--pink);
+  background-color: var(--pink);
+  color: var(--white);
+  font-weight: bold;
+  padding: 4px 16px;
+  border-radius: 25px;
+  
+  font-family: "Poetsen One", sans-serif;
+  text-shadow: 0 0 3px var(--dark);
+  font-size: 26px;
+  box-shadow: 0 0 93px var(--blue);
+  cursor: pointer;
+}
+
+.btn:active {
+  scale: .80;
 }
 
 .ft-pink {
