@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Poetsen+One&family=Zeyada&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  -webkit-touch-callout: none;
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  user-select: none;
+
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ddd;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #212121;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #444444;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --pink: hsl(300,100%,50%);
+  --blue: hsl(194.5,100%,34.1%);
+
+  --bg-color: hsl(260,57%,5.5%);
+
+  --ft-color: hsl(0,0%,95.7%);
+}
+
+body {
+  min-width: 320px;
+  max-height: 100vh;
+  background-color: var(--bg-color);
+  color: var(--ft-color);
+}
+
+#app {
+  /* background-color: var(--bg-color);
+  color: var(--ft-color); */
+}
+
+.ft-pink {
+  color: var(--pink);
+}
+
+.ft-blue {
+  color: var(--blue);
+}
+
+.zeyada {
+  font-family: "Zeyada", cursive;
+}
+
+.nanum {
+  font-family: "Nanum Gothic Coding", monospace;
+}
+
+.poetsen {
+  font-family: "Poetsen One", sans-serif;
+}
+
+.ft-16 {
+  font-size: 16px;
+}
+
+.ft-18 {
+  font-size: 18px;
+}
+
+.ft-20 {
+  font-size: 20px;
+}
+
+.ft-22 {
+  font-size: 22px;
+}
+
+.ft-24 {
+  font-size: 22px;
+}
+
+.ft-26 {
+  font-size: 22px;
+}
