@@ -1,4 +1,4 @@
-const perguntas = {
+export const perguntas = {
     verdade: [
         {
             id: 1,
